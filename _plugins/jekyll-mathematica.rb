@@ -28,6 +28,7 @@ module Jekyll
           system("mkdir .mma-cache")
         end
         notebook_file = ".mma-cache/#{doc.basename_without_ext}.ipynb"
+        notebook_html = ".mma-cache/#{doc.basename_without_ext}.html"
         final_notebook_file = "assets/notebooks/#{doc.basename_without_ext}.ipynb"
 
         changed = true
@@ -72,13 +73,14 @@ module Jekyll
           end
 
           system("jupyter nbconvert --execute --to notebook --inplace #{notebook_file}")
+          system("jupyter nbconvert --to html #{notebook_file} --HTMLExporter.theme=dark")
         end
 
         if !File.exists?(final_notebook_file)
           system("(echo '{% raw %}'; cat #{notebook_file}; echo '{% endraw %}') > #{final_notebook_file}")
         end
           
-        html_output = `jupyter nbconvert --to html --stdout #{notebook_file} --HTMLExporter.theme=dark`
+        html_output = `cat #{notebook_html}`
 
         html = Nokogiri::HTML(html_output)
         jp_cells = html.css('div.jp-Cell')
