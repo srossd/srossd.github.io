@@ -74,6 +74,7 @@ module Jekyll
 
           system("jupyter nbconvert --execute --to notebook --inplace #{notebook_file}")
           system("jupyter nbconvert --to html #{notebook_file} --HTMLExporter.theme=dark")
+          system("sed -i '/<style type=\"text\/css\">/,/<\/style>/d' #{notebook_html}")
         end
 
         if !File.exists?(final_notebook_file)
