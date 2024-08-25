@@ -1,0 +1,1 @@
+n = 16; jobname = "2020-09-18-gosper-1"; wdir = "C:/users/rossd/Documents";

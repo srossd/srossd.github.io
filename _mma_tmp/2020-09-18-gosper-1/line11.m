@@ -1,0 +1,1 @@
+Normal/@Table[CF[1,Sequence@@ConstantArray[2,i]] CF[1,Sequence@@ConstantArray[2,i]] - 2,{i,10}]

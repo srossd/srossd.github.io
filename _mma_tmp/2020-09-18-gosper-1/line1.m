@@ -1,0 +1,1 @@
+Convergents[(1+Sqrt[5])/2,10]

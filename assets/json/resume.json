@@ -1,0 +1,196 @@
+{
+  "basics": {
+    "name": "Ross Dempsey",
+    "label": "Ph.D. Student",
+    "email": "sdempsey@princeton.edu",
+    "URL": "https://srossd.com"
+  },
+  "education": [
+    {
+      "institution": "Princeton University",
+      "location": "Princeton, NJ",
+      "area": "Physics",
+      "studyType": "PhD",
+      "startDate": "2019-09-01",
+      "endDate": "2025-08-01"
+    },
+    {
+      "institution": "Johns Hopkins University",
+      "location": "Baltimore, MD",
+      "area": "Physics, Mathematics",
+      "studyType": "BS Physics, BA/MA Mathematics",
+      "startDate": "2016-09-01",
+      "endDate": "2018-12-31"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Charlotte Elizabeth Procter Fellowship",
+      "date": "2024-05-01",
+      "awarder": "Princeton University",
+      "url": "https://gradschool.princeton.edu/financial-support/fellowships/princeton-fellowships/honorific-fellowship-charlotte-elizabeth",
+      "summary": "Recognizes students in their last year of study for outstanding academic performance and professional promise."
+    },
+    {
+      "title": "Graduate Research Fellowship",
+      "date": "2019-05-01",
+      "awarder": "National Science Foundation",
+      "url": "https://www.nsfgrfp.org/",
+      "summary": "Recognizes and supports outstanding graduate students who have demonstrated the potential to be high achieving scientists and engineers, early in their careers."
+    },
+    {
+      "title": "Kerr Memorial Prize",
+      "date": "2019-05-01",
+      "awarder": "Johns Hopkins Department of Physics & Astronomy",
+      "summary": "Acknowledges outstanding graduating physics majors"
+    }
+  ],
+  "publications": [
+    {
+        "name": "Small Circle Expansion for Adjoint QCD$_2$ with Periodic Boundary Conditions",
+        "publisher": "",
+        "releaseDate": "2024-06-01",
+        "url": "https://arxiv.org/abs/2406.17079"
+    },
+    {
+        "name": "Global Symmetry and Integral Constraint on Superconformal Lines in Four Dimensions",
+        "publisher": "",
+        "releaseDate": "2024-05-01",
+        "url": "https://arxiv.org/abs/2405.10914"
+    },
+    {
+        "name": "Phase Diagram of the Two-Flavor Schwinger Model at Zero Temperature",
+        "publisher": "Phys. Rev. Lett.",
+        "releaseDate": "2024-01-01",
+        "url": "https://doi.org/10.1103/PhysRevLett.132.031603"
+    },
+    {
+        "name": "Lattice Hamiltonian for adjoint QCD2$",
+        "publisher": "JHEP",
+        "releaseDate": "2024-01-01",
+        "url": "https://doi.org/10.1007/JHEP08(2024)009"
+    },
+    {
+        "name": "Level repulsion in N = 4 super-Yang-Mills via integrability, holography, and the bootstrap",
+        "publisher": "JHEP",
+        "releaseDate": "2024-01-01",
+        "url": "https://doi.org/10.1007/JHEP07(2024)059"
+    },
+    {
+        "name": "Compactifying the Kerr-Schild double copy",
+        "publisher": "JHEP",
+        "releaseDate": "2023-01-01",
+        "url": "https://doi.org/10.1007/JHEP05(2023)198"
+    },
+    {
+        "name": "Adjoint Majorana QCD2 at finite N",
+        "publisher": "JHEP",
+        "releaseDate": "2023-01-01",
+        "url": "https://doi.org/10.1007/JHEP04(2023)107"
+    },
+    {
+        "name": "Bootstrapping N = 4 super-Yang-Mills on the conformal manifold",
+        "publisher": "JHEP",
+        "releaseDate": "2023-01-01",
+        "url": "https://doi.org/10.1007/JHEP01(2023)038"
+    },
+    {
+        "name": "Discrete chiral symmetry and mass shift in the lattice Hamiltonian approach to the Schwinger model",
+        "publisher": "Phys. Rev. Res.",
+        "releaseDate": "2022-Nov-01",
+        "url": "https://arxiv.org/abs/2206.05308"
+    },
+    {
+        "name": "Decoding locomotion from population neural activity in moving C. elegans",
+        "publisher": "bioRxiv",
+        "releaseDate": "2021-01-01",
+        "url": "https://doi.org/10.1101/445643"
+    },
+    {
+        "name": "Exact symmetries and threshold states in two-dimensional models for QCD",
+        "publisher": "JHEP",
+        "releaseDate": "2021-01-01",
+        "url": "https://doi.org/10.1007/JHEP10(2021)096"
+    },
+    {
+        "name": "Formation of Orion fingers",
+        "publisher": "MNRAS",
+        "releaseDate": "2020-may-01",
+        "url": "https://doi.org/10.1093/mnras/staa1264"
+    },
+    {
+        "name": "Kerr-Schild Double Copy and Complex Worldlines",
+        "publisher": "JHEP",
+        "releaseDate": "2020-01-01",
+        "url": "https://doi.org/10.1007/JHEP02(2020)180"
+    },
+    {
+        "name": "A Phase Transition in Minesweeper",
+        "publisher": "",
+        "releaseDate": "2020-01-01",
+        "url": "https://doi.org/10.4230/LIPIcs.FUN.2021.12"
+    },
+    {
+        "name": "The spatial extension of extended narrow line regions in MaNGA AGN",
+        "publisher": "MNRAS",
+        "releaseDate": "2019-Oct-01",
+        "url": "https://doi.org/10.1093/mnras/stz2183"
+    },
+    {
+        "name": "The size-luminosity relationship of quasar narrow-line regions",
+        "publisher": "MNRAS",
+        "releaseDate": "2018-jul-01",
+        "url": "https://doi.org/10.1093/mnras/sty941"
+    }
+  ],
+  "talks": [
+    {
+      "title": "New Approaches to Adjoint QCD2",
+      "date": "2024-07-16",
+      "location": "Madrid",
+      "conference": "Bootstrap 2024"
+    },
+    {
+      "title": "Adjoint QCD2 on the Hamiltonian Lattice",
+      "date": "2024-05-27",
+      "location": "Les Diablerets",
+      "conference": "Confining Strings"
+    },
+    {
+      "title": "Bootstrapping SCFTs with Integral Constraints",
+      "date": "2024-05-23",
+      "location": "Kyoto",
+      "conference": "Bootstrap, Localization, and Holography"
+    },
+    {
+      "title": "Phase Diagram of the Two-Flavor Schwinger Model at Zero Temperature",
+      "date": "2024-02-09",
+      "location": "Princeton, NJ",
+      "conference": "Princeton University"
+    },
+    {
+      "title": "Studying 2D Gauge Theories on the Hamiltonian Lattice",
+      "date": "2023-10-12",
+      "location": "Upton, NY",
+      "conference": "Brookhaven National Laboratory"
+    },
+    {
+      "title": "Fun with the Lattice Schwinger Model",
+      "date": "2023-05-19",
+      "location": "Baltimore, MD",
+      "conference": "Johns Hopkins University"
+    },
+    {
+      "title": "Phase Diagram of the Two-Flavor Schwinger Model at Zero Temperature",
+      "date": "2023-05-02",
+      "location": "Minneapolis, MN",
+      "conference": "Quark Confinement 2023"
+    },
+    {
+      "title": "Adjoint QCD2 at Finite N",
+      "date": "2022-09-10",
+      "location": "Princeton, NJ",
+      "conference": "Simons Confinement Collaboration Inaugural Workshop"
+    }
+  ]
+}
