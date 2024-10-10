@@ -24,4 +24,4 @@ I am also involved in [outreach efforts](/outreach) at Princeton and with the Na
 
 You might be looking for:
 - [My tool](https://feynman.srossd.com/) for drawing Feynman diagrams and generating tikz-feynman code
-- [Undergraduate Physics in a Hurry](/resources), a rapid review of undergraduate physics with 100+ solved problems from Princeton's preliminary exam in physics. I am in the process of turning this into a book with Princeton Press, co-authored with [Andy Leifer](http://leiferlab.princeton.edu). When that is complete, the draft version will no longer be available here.
+- [Undergraduate Physics in a Hurry](/assets/pdf/Undergraduate_Physics_in_a_Hurry.pdf), a rapid review of undergraduate physics with 100+ solved problems from Princeton's preliminary exam in physics. I am in the process of turning this into a book with Princeton Press, co-authored with [Andy Leifer](http://leiferlab.princeton.edu). When that is complete, the draft version will no longer be available here.
