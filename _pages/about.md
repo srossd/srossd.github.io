@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an NSF Graduate Research Fellow studying high-energy theory at Princeton, advised by Silviu Pufu.
+I am a final-year graduate student at Princeton, advised by Silviu Pufu. I am an incoming Pappalardo Fellow at MIT, in the Center for Theoretical Physics.
 
 I study the physics of quantum field theories. The goal is to understand behaviors like the [confinement of quarks](https://en.wikipedia.org/wiki/Color_confinement) in quantum chromodynamics using non-perturbative methods. I primarily work on applying Hamiltonian lattice gauge theory to low-dimensional gauge theories, and applying the conformal bootstrap to superconformal field theories. See my [publications](/publications) for more details.
 
