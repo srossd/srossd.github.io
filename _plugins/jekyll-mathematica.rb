@@ -46,6 +46,12 @@ module Jekyll
           end
         end
 
+        if changed && (ENV["CI"] || ENV["MMA_CACHE_ONLY"])
+          raise "jekyll-mathematica: .mma-cache for '#{doc.basename_without_ext}' is missing or stale, and no Wolfram kernel is " \
+                "available in this environment. Run `bundle exec jekyll build` locally (with the Wolfram Jupyter kernel), " \
+                "then commit .mma-cache/ and assets/notebooks/."
+        end
+
         if changed
           notebook = {
             "cells" => new_cells,
@@ -77,7 +83,7 @@ module Jekyll
           system("sed -i '/<style type=\"text\/css\">/,/<\/style>/d' #{notebook_html}")
         end
 
-        if !File.exists?(final_notebook_file)
+        if !File.exist?(final_notebook_file)
           system("(echo '{% raw %}'; cat #{notebook_file}; echo '{% endraw %}') > #{final_notebook_file}")
         end
           
