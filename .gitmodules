@@ -1,0 +1,3 @@
+[submodule "feynman"]
+	path = feynman
+	url = https://github.com/srossd/tikz-feynman-editor.git
