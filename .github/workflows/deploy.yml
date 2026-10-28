@@ -93,6 +93,7 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
+          sudo apt-get install -y --no-install-recommends imagemagick # for jekyll-imagemagick responsive images
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
