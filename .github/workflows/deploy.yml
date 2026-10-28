@@ -102,7 +102,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24" # the editor's 2020-era Babel lockfile fails on Node 20
       - name: Build Feynman diagram editor ⚛️
         working-directory: feynman
         env:
